@@ -9,4 +9,5 @@ def my_addition():
     return str(my_res)
 
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
